@@ -1,0 +1,4 @@
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+source ~/.bashrc
+nvm list-remote
+nvm install v19.3.0
