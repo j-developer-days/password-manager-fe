@@ -11,6 +11,7 @@ npm run start
 ng generate component components/group-account
 ng generate component components/account
 ng generate component components/dashboard
+ng generate component components/error
 
 --add navigation
 --https://angular.io/tutorial/tour-of-heroes/toh-pt5
