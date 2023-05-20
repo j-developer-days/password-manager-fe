@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { AccountComponent } from './components/account/account.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ErrorComponent } from './components/error/error.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,8 +20,9 @@ import { ErrorComponent } from './components/error/error.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

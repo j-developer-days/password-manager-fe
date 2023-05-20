@@ -16,3 +16,6 @@ ng generate component components/error
 --add navigation
 --https://angular.io/tutorial/tour-of-heroes/toh-pt5
 ng generate module app-routing --flat --module=app
+
+--create service
+ng generate service services/group-account

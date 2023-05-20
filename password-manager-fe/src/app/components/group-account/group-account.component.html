@@ -1,1 +1,3 @@
-<p>group-account works!</p>
+<div *ngFor="let groupAccount of (groupAccounts$ | async)">
+    <h3>{{groupAccount}}</h3>
+</div>
