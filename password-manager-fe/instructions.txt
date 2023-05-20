@@ -19,3 +19,7 @@ ng generate module app-routing --flat --module=app
 
 --create service
 ng generate service services/group-account
+
+--create environments
+--https://angular.io/guide/build
+ng generate environments
