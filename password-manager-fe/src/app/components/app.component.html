@@ -1,6 +1,15 @@
 <div class="container">
     <div>header</div>
-    <div>menu</div>
+    <div>
+        <nav>
+            <a routerLink="/home">home</a>
+            <br/>
+            <a routerLink="/accounts">Accounts</a>
+            <br/>
+            <a routerLink="/group-accounts">Group of Accounts</a>
+          </nav>
+        <router-outlet></router-outlet>
+    </div>
     <div>content - {{title}}</div>
     <div>footer</div>
 </div>

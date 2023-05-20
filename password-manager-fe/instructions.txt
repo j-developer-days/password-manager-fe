@@ -10,3 +10,7 @@ npm run start
 --https://angular.io/tutorial/tour-of-heroes/toh-pt1
 ng generate component components/group-account
 ng generate component components/account
+
+--add navigation
+--https://angular.io/tutorial/tour-of-heroes/toh-pt5
+ng generate module app-routing --flat --module=app
