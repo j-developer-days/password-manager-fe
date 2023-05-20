@@ -3,3 +3,10 @@ ng new password-manager-fe
 
 --run application
 ng serve --port 4201
+--or
+npm run start
+
+--create new component
+--https://angular.io/tutorial/tour-of-heroes/toh-pt1
+ng generate component components/group-account
+ng generate component components/account
