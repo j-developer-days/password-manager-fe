@@ -6,12 +6,14 @@ import { AppComponent } from './components/app.component';
 import { GroupAccountComponent } from './components/group-account/group-account.component';
 import { FormsModule } from '@angular/forms';
 import { AccountComponent } from './components/account/account.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GroupAccountComponent,
-    AccountComponent
+    AccountComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
