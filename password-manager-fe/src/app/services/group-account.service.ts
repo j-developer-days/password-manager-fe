@@ -15,4 +15,9 @@ export class GroupAccountService {
     return this.http.get<string[]>(environment.apiUrlWithContextPath + "group-account/");
   }
 
+
+  createGroupAccount(groupAccount: string): Observable<any> {
+    return this.http.post(environment.apiUrlWithContextPath + "group-account/" + groupAccount, null);
+  }
+
 }

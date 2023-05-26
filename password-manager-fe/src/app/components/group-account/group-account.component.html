@@ -1,3 +1,14 @@
-<div *ngFor="let groupAccount of (groupAccounts$ | async)">
+<div>
+    <h2>Create new groupAccount</h2>
+    <form>
+        <div class="mb-3">
+          <label for="inputGroupAccount" class="form-label">Write new group account</label>
+          <input type="text" class="form-control" id="inputGroupAccount" #inputGroupAccount>
+        </div>
+        <button type="button" (click)="createGroupAccount(inputGroupAccount.value)" class="btn btn-primary">Create</button>
+      </form>
+</div>
+
+<div *ngFor="let groupAccount of groupAccounts">
     <h3>{{groupAccount}}</h3>
 </div>
